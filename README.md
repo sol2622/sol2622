@@ -18,24 +18,24 @@ python scripts/evaluate_model.py
 학습된 모델이 얼마나 정확한지 평가
 IoU(Intersection over Union) 또는 MSE(Mean Squared Error) 같은 지표로 성능 측정 -->
 
-# 1️⃣ 프로젝트 폴더 이동
+# 프로젝트 폴더 이동
 cd C:\Users\USER\Desktop\AI-Background-Removal
 
-# 2️⃣ 가상환경 활성화
+# 가상환경 활성화
 venv\Scripts\activate
 
-# 3️⃣ 패키지 설치
+# 패키지 설치
 pip install -r requirements.txt
 
-# 4️⃣ 데이터 전처리
+# 데이터 전처리
 python scripts/dataset/data_preprocessing.py
 
-# 5️⃣ 모델 학습
+# 모델 학습
 python scripts/train_model.py
 
-# 6️⃣ 모델 평가
+# 모델 평가
 python scripts/evaluate_model.py
 
-# 7️⃣ 배경 제거 실행
+# 배경 제거 실행
 API 실행 후 APIPOST로 PNG 파일 링크 넣어주고 실행
 # sol2622
