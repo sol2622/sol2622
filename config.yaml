@@ -1,0 +1,4 @@
+EPOCHS: 1
+BATCH_SIZE: 8
+LEARNING_RATE: 0.0002
+DEVICE: "cuda"  # GPU 사용 (없으면 "cpu")

@@ -1,0 +1,17 @@
+# 가상환경 제외
+venv/
+__pycache__/
+
+# 모델 파일 (개별 업로드 권장)
+models/generator.pth
+
+# 환경설정 파일
+*.log
+.env
+
+# 대용량 파일 제외 (Git LFS 미사용)
+*.dll
+*.lib
+*.pyd
+*.bin
+*.exe
